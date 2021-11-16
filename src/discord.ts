@@ -30,9 +30,9 @@ export const createMessage = (
     .setColor("#66ff82")
     .setTitle(`${metadata.name} sold!`)
     .setAuthor(
-      "NFT Sales Bot",
-      "https://lh3.googleusercontent.com/JwIqBA0ilWVKXhRMG7kWTqfSZWaDQtYPbgVAAVrtZ4l1FxTbrdWVSZaB2K3gwXU5TAR3sqB0_8H8dWysOTGtczNK7zaoOJcCYR9iir8=w600",
-      "https://github.com/nftboi/discord-nft-sales-bot"
+      "Pleb MAYC Watcher",
+      "https://drive.google.com/file/d/12l8yVFWtsKwoErqwZvEV4HuWkAN3Ea6t/view?usp=sharing",
+      "https://plebs.io"
     )
     .addFields(
       { name: "Name", value: metadata.name },
@@ -47,5 +47,5 @@ export const createMessage = (
         ),
       }
     )
-    .setURL(`https://opensea.io/assets/${contractAddress}/${tokenId}`)
+    .setURL(`https://opensea.io/assets/${contractAddress}/${tokenId}?ref=0x9A84915DFf8F8801b26D0b35b199E5C16E29f899`)
     .setImage(metadata.image);
